@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Story+Script&display=swap');
+
+.story-script-regular {
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.story-script-regular {
+    font-family: "Noteble", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 30vh;
+}
+
+h1 {
+    font-family: "Noteble", sans-serif;
+    font-size: 10vw;
+    padding-top: 30px;
+    font-variant: small-caps;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding-top: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: cadetblue;
+}
+
+section{
+    padding: 10vh 0 10vh 30px;
+    line-height: 2em;
+}
+
+section.fundo1 {
+    background:black url(imagens/background001.jpg)  right center no-repeat fixed;
+    background-size: cover;
+    box-shadow:inset 6px 6px 13px 0px #000000a0;
+}
+
+section.fundo2 {
+    background: black url(imagens/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    box-shadow:inset 6px 6px 13px 0px #000000a0;
+}
+
+p {
+    font-size: clamp(1rem, 2vw, 3rem);
+    font-family: "Story Script", sans-serif;
+    padding: 10px;
+}
+
+p.branco {
+    background-color: white;
+    padding-bottom: 2em;
+}
+
+p.transparente {
+    color: white;
+    background-color: #0000004c;
+    width: 45vw;
+    
+    margin-left: 0px;
+    text-shadow: 1px 2px 3px #000000be;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding: 8px;
+    font-size: 1.4em;
+}
