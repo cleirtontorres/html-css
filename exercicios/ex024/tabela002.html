@@ -22,6 +22,23 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+         thead,
+        tfoot {
+            background-color: #3060ba;
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #3060ba;
+        }
+
+        tbody tr:nth-child(2n){
+            background-color: lightgray;
         }
 
         #populacao{
@@ -38,11 +55,7 @@
             text-align: right;
         }
 
-        thead,
-        tfoot {
-            background-color: #3060ba;
-            color: white;
-        }
+       
     </style>
 </head>
 
