@@ -1,37 +1,54 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
-     font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body, html{
-    background-color:bisque;
+body,
+html {
+    background-color: bisque;
 }
 
-header{
-    text-align: center;
+header {
+
     background-color: gray;
     padding: 0px;
 }
 
-h1{
+h1 {
+    text-align: center;
     padding: 10px;
 }
 
-menu {
-  border: 1px solid #d6d6d6;
-  display: block;
+span#burger {
+    background-color: #323232;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
 }
 
-li{
-   
+span#burger:hover{
+    color: black ;
+    background-color: white;
+    cursor: pointer;
+}
+
+menu {
+    text-align: center;
+    border: 1px solid #d6d6d6;
+    display: none;
+}
+
+li {
+
     list-style-type: none;
     border: 1px solid #d6d6d6;
 }
 
-menu > ul > li > a{
+menu>ul>li>a {
     display: block;
     color: white;
     text-decoration: none;
@@ -39,11 +56,11 @@ menu > ul > li > a{
     background-color: #505050;
 }
 
-menu > ul > li > a:hover{
+menu>ul>li>a:hover {
     background-color: gray;
 }
 
-main{
+main {
     width: 90vw;
     background-color: white;
     margin: auto;
@@ -53,11 +70,11 @@ main{
     border-radius: 10px;
 }
 
-article > h2{
+article>h2 {
     padding-bottom: 20px;
 }
 
-article > p{
+article>p {
     text-align: justify;
     margin-bottom: 10px;
     text-indent: 20px;
