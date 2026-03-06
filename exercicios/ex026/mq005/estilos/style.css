@@ -3,46 +3,62 @@
 *{
     margin: 0px;
     padding: 0px;
+     font-family: Arial, Helvetica, sans-serif;
 }
 
 body, html{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
     background-color:bisque;
 }
 
 header{
     text-align: center;
     background-color: gray;
-    padding: 10px;
+    padding: 0px;
 }
 
 h1{
-    margin: 10px;
+    padding: 10px;
 }
 
 menu {
-  border: 1px solid black;
+  border: 1px solid #d6d6d6;
+  display: block;
 }
 
 li{
-    padding: 5px;
+   
     list-style-type: none;
-    border: 1px solid black;
+    border: 1px solid #d6d6d6;
 }
 
-a{
+menu > ul > li > a{
+    display: block;
     color: white;
     text-decoration: none;
+    padding: 10px;
+    background-color: #505050;
+}
+
+menu > ul > li > a:hover{
+    background-color: gray;
 }
 
 main{
     width: 90vw;
     background-color: white;
     margin: auto;
+    margin-top: 10px;
     padding: 10px;
     max-width: 800px;
-    border-radius:0px 0px 10px 10px;
+    border-radius: 10px;
+}
+
+article > h2{
+    padding-bottom: 20px;
+}
+
+article > p{
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px;
 }
