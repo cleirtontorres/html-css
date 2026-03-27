@@ -11,30 +11,36 @@
             background-color: antiquewhite;
             border: 2px solid black;
             margin-top: 10px;
-            flex-flow: row wrap;
         }
 
         div.itens{
-            
+            height:70px;
             background-color: aqua;
-            margin: 5px;
+            margin: 10px;
             border: 2px solid black;
             text-align: center;
-            flex-basis:150px;
-            flex-grow: 1;
+            border-radius: 10px;
+        }
+
+        .a{
+            flex: 0 1 150px;
+        }
+
+        .b{
+            flex: 2 0 150px;
+        }
+
+        .c{
+            flex: 1 2 auto;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="itens">A</div>
-        <div class="itens">Bfghjdstfydfg</div>
-        <div class="itens">C</div>
-        <div class="itens">D</div>
-        <div class="itens">E</div>
-        <div class="itens">F</div>
-        <div class="itens">G</div>
+        <div class="itens a">A</div>
+        <div class="itens b">B</div>
+        <div class="itens c">C</div>
     </div>
 </body>
 
