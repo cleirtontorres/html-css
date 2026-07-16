@@ -48,7 +48,7 @@ header, section.normal {
 .media-text{
     display: flex;
     flex-flow: row wrap-reverse;
-    gap: 20px;
+    gap: 20px;          
     justify-content: space-between;
 }
 
