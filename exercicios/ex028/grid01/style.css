@@ -3,13 +3,19 @@
 .container{
     border: 3px solid #0c72d2 ;
     display:grid;
-    height: 250px;
+  /*  height: 250px;*/
     grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px 100px;
     gap: 5px;
-}
+    align-items: start;
+    justify-items: normal;
+    align-content: normal;
+    justify-content: normal;
 
 .item{
     border: 2px solid #fc5420;
     padding: 5px;
     margin: 5px;
+    text-align: center;
+}
 }
